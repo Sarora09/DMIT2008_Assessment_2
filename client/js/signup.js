@@ -23,7 +23,7 @@ window.addEventListener("load", function (e) {
     
     // if the user entered the valid input for the user name, email, and password then only the submt event can happen
     if (userNameValid==true && emailValid==true && validPassword==true) {
-      let url = "http://localhost:5000/register";
+      let url = "/register";
       let xhr = new XMLHttpRequest();
       xhr.open("POST", url, true);
       xhr.setRequestHeader('Content-type', 'application/json; charset=utf-8');

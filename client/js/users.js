@@ -1,6 +1,6 @@
 window.addEventListener("load", function (e) {
     let userInsert = document.querySelector('.importedusersdata') // referencing to the importedusersdata class so as to append the data received from the API
-        let url = "http://localhost:5000/api/v1/users";
+        let url = "/api/v1/users";
         fetch(url).then(res=>res.json()).then(data=>{
             console.log(data);
             data.map(element=>{

@@ -1,0 +1,16 @@
+.usersdata {
+    flex-basis: 40%;
+  }
+  
+  .importedusersdata {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .headerdetails {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    text-decoration: underline;
+  }
